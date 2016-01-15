@@ -1,0 +1,2 @@
+# msw
+mswahmedabad.com host
