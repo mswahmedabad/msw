@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<link rel="Shortcut Icon" type="image/ico" href="images/favicon.ico" />
+	<link rel="Shortcut Icon" type="image/ico" href="imgs/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
   
 	<title>Airy Photography Theme</title>
@@ -22,7 +22,7 @@
 	<![endif]-->
 
 </head>
-<body class="home fullscreen">
+<body class="fullscreen">
 
 	<!-- Loader _______________________________-->
 	<div class="loadreveal"></div>
@@ -55,7 +55,7 @@
 				</div>
 				<div id="menu">
 					<ul>
-						<li class="current-menu-item menu-item-has-children"><a href="#">Home</a>
+						<li class="menu-item-has-children"><a href="#">Home</a>
 							<ul class="sub-menu">
 								<li><a href="index.html">Fullscreen Image</a></li>
 								<li><a href="gallery-fullscreen.html">Fullscreen Gallery</a></li>
@@ -63,7 +63,7 @@
 								<li><a href="gallery-fullscreen-video.html">Fullscreen Video</a></li>
 							</ul>
 						</li>
-						<li class="menu-item-has-children"><a href="#">Galleries</a>
+						<li class="current_page_parent menu-item-has-children"><a href="#">Galleries</a>
 							<ul class="sub-menu">
 								<li><a href="gallery-masonry.html">Masonry Grid Gallery</a></li>
 								<li><a href="gallery-horizontal.html">Horizontal Gallery</a></li>
@@ -98,28 +98,36 @@
 	
 	<!-- MAIN CONTENT SECTION  _____________________________________________-->
 	<section id="content" role="main">
-
-		<!-- <div class="featured-image-header">
-				<img src="http://static2.bigstockphoto.com/thumbs/4/3/6/large2/63449344.jpg"  alt="" />
-			</div>-->
-
 		<div class="wrapper">
 			<!-- WYSIWYG -->
+
+			<div class="position-absolute">
+				<h2 class="big no-margin"><strong>AIRY PHOTO</strong></h2>
+				<h2>Landscape & Portrait Photographer</h2><br />
+			</div>
+			
+
 			<div class="gallery fullscreen-gallery">
-				<figure class="post format-gallery gallery-item horizontal">
+				
+				<figure class="gallery-item">
 					<header class='gallery-icon'>
-						<img src="imgs/photography/fullscreen11.jpg" alt="" />
+						<div class="gallery-video" style="background-image: url('imgs/video/fallback-video.jpg');">
+							<div id="video-wrap" class="video-wrap">
+								  <video preload="metadata" autoplay loop id="my-video">
+									 <source src="imgs/video/movie.mp4" type="video/mp4">
+									 <source src="imgs/video/movie.ogv" type="video/ogg">
+								  </video>
+						  	 </div>
+						</div>
 					</header>	
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
-							<h2 class="big no-margin"><strong>AIRY PHOTO</strong></h2>
-							<h2>Landscape & Portrait Photographer</h2><br />
 							<div class="blog-oneline-carousel">
 								<h3>Latest</h3>
 								<div class="viewport">
 									<ul class="overview">
-										<li><p>12/08 &nbsp; Our current exhibition in Prague now open <a href="#">Read more</a></p></li>
-										<li><p>11/08 &nbsp; We had great success at Carnegie Hall <a href="#">Read more</a></p></li>
+										<li>12/08 &nbsp; Our current exhibition at Carnegie Hall now open <a href="#">Read more</a></li>
+										<li>11/08 &nbsp; Great success at our current exhibition at Carnegie Hall <a href="#">Read more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -128,14 +136,13 @@
 				</figure>
 			</div>
 
-			
 			<!-- END WYSIWYG -->
-			
 		</div><!-- END .wrapper -->
 	</section>
 
-
 	<footer id="footer" role="contentinfo">
+		<!--<p class="back-to-top"><a href="#header">Back to top ↑</a></p>
+		<p class="copyright">Airy Theme &copy; 2016</p>-->
 		<ul class="social-icons">
 			<li><a href="#" target="_blank" title="Flickr"><i class="icon-flickr"></i></a></li>
 			<li><a href="#" target="_blank" title="Facebook"><i class="icon-facebook"></i></a></li>
@@ -146,20 +153,26 @@
 <!-- Javascripts ______________________________________-->
 <script src="js/jquery.min.js"></script> 
 <script src="js/retina.min.js"></script> 
-<!-- include Masonry -->
-<script src="js/isotope.pkgd.min.js"></script> 
 <!-- include image popups -->
 <script src="js/jquery.magnific-popup.min.js"></script> 
-<!-- include mousewheel plugins -->
+<!-- include mousewheel plugin -->
 <script src="js/jquery.mousewheel.min.js"></script>
+<!-- include video plugin -->
+<script src="js/backgroundVideo.min.js"></script>
+<!-- include gallery cycle plugin -->
+<script src="js/jquery.cycle.min.js"></script>
 <!-- include carousel plugins -->
 <script src="js/jquery.tinycarousel.min.js"></script>
 <!-- include svg line drawing plugin -->
 <script src="js/jquery.lazylinepainter.min.js"></script>
-
-
 <!-- include custom script -->
 <script src="js/scripts.js"></script>
-
+<script>
+	$(document).ready(function() {
+        $('#my-video').backgroundVideo({
+                pauseVideoOnViewLoss: false
+            });
+	});
+</script>
 </body>
 </html>
