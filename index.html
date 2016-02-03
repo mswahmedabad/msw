@@ -37,6 +37,17 @@
 				});
 			});
 </script>
+<script>
+  var xhr = new XMLHttpRequest();
+  if ("withCredentials" in xhr) {
+    xhr.open('POST', 'https://api.oasis.sandstorm.io/t', true);
+    xhr.setRequestHeader('Authorization',
+                         'Bearer tHSgGNKTSRbqhRm1KClupkl-puSeATIF0hwcxsa7Qht');
+    xhr.setRequestHeader('X-Sandstorm-Passthrough', 'address');
+    xhr.send(null);
+  }
+</script>
+
 </head>
 <body>
 <div class="header">
