@@ -1,9 +1,4 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
+
 h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	padding: 0;
@@ -55,6 +50,7 @@ p.location {
 }
 .banner-top {
   padding: 1.4em 0;
+
 }
 .social-icons i {
     width: 28px;
@@ -87,10 +83,11 @@ a i.vimeo:hover {
 	position: relative;
 }
 .logo {
-    text-align: center;
-    position: absolute;
+    text-align:center;
     bottom: 10px;
     left: 47em;
+    position: absolute;
+    transform: translate(-20%)
 }
 .logo a:hover {
     text-decoration: none;
@@ -99,9 +96,9 @@ a i.vimeo:hover {
     font-family: 'Inconsolata-Regular';
     font-size: 3.5em;
     color: #535353;
-    margin: 0;
+    margin:0;
     font-weight: 900;
-    text-transform: uppercase;
+    text-transform:uppercase;
     letter-spacing: 3px;
 }
 .logo a :hover{
