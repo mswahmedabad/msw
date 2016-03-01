@@ -14,12 +14,13 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 900;
     font-kerning: normal;
     font-size: 44px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size-adjust: auto;
-    margin-right: 30px;
+    margin-right: 60px;
     color: #535353;
     text-align: center;
     margin-left: -90px;
+    padding-bottom: 2px;
 }
 ul,ol,a,span.i {
 	margin:0;
@@ -1553,7 +1554,7 @@ width: 100%;
 	    left: 34.5em;
 	}
 	.banner {
-	    min-height: 630px;
+	    min-height: 330px;
 	}
 	.banner5 {
 	    min-height: 100px;
