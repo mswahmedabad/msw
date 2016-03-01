@@ -102,6 +102,7 @@ a i.twitter:hover {
     left: 47em;
     position:absolute;
     transform: translate(-20%)
+
 }
 .logo a:hover {
     text-decoration: none;
@@ -156,6 +157,7 @@ h2.main-heading:after {
     margin: 0 auto;
     text-align: center;
     width: 74%;
+    padding-bottom: 2px;
 }
 .navbar-default {
   background:none;
@@ -285,10 +287,11 @@ img.zoom-img:hover {
     margin: 0;
     padding-bottom: .6em;
         color: #535353;
+    font-weight: 900;
 }
 .wel-text p{
     font-size: 1em;
-    color: #CCCCCC;
+    color: #535353;
     font-weight: 400;
     line-height: 2.3em;
     padding-bottom: 2em;
@@ -951,7 +954,7 @@ h3.first {
 h3.bars {
     padding-bottom: .5em;
     font-size: 3em;
-    color: #958e71;
+    color: #535353;
 }
 .page-header h1 {
     padding-bottom: .5em;
@@ -1362,9 +1365,10 @@ h3.tittle {
 .about-top-right p {
     color: #535353;
     font-size: .975em;
-    line-height: 2.5em;
+    line-height: 2.4em;
     margin-top: 1em;
     text-align: justify;
+    width: 175%
 }
 .about-top-right h4 {
     font-family: 'Inconsolata-Regular';
