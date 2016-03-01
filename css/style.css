@@ -4,6 +4,22 @@ h1,h2,h3,h4,h5,h6{
 	padding: 0;
 	font-family: 'Inconsolata-Regular';
 }
+
+.logo h2{
+    margin: 0;
+    font-family: 'Inconsolata-Regular';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-kerning: normal;
+    font-size: 44px;
+    letter-spacing: 1px;
+    font-size-adjust: auto;
+    margin-right: 30px;
+    color: #535353;
+    text-align: center;
+    margin-left: -90px;
+}
 ul,ol,a,span.i {
 	margin:0;
 	padding: 0;
@@ -12,6 +28,7 @@ ul,ol,a,span.i {
 p {margin: 0;
 	 padding: 0;
 	 font-family: 'Open Sans', sans-serif;
+    
 }
 html, body{
 	font-family: 'Open Sans', sans-serif;
@@ -45,11 +62,11 @@ p.location {
         padding-top: 7px;
 }
 .social-icons {
-  padding: 0;
+  padding:0;
   float: right;
 }
 .banner-top {
-  padding: 1.4em 0;
+  padding: 1.4em 0px;
 
 }
 .social-icons i {
@@ -73,27 +90,21 @@ a i.twitter {
 a i.twitter:hover {
   background-position: -28px -28px;
 }
-a i.vimeo {
-      background-position: -56px 0px;
-}
-a i.vimeo:hover {
-      background-position: -56px -28px;
-}
 .header{
-	position: relative;
+	position:relative;
 }
 .logo {
     text-align:center;
-    bottom: 10px;
+    bottom:10px;
     left: 47em;
-    position: absolute;
+    position:absolute;
     transform: translate(-20%)
 }
 .logo a:hover {
     text-decoration: none;
 }
 .logo a h1 {
-    font-family: 'Inconsolata-Regular';
+    font-family:'Inconsolata-Regular';
     font-size: 3.5em;
     color: #535353;
     margin:0;
@@ -141,7 +152,7 @@ h2.main-heading:after {
     float: none !important;
     margin: 0 auto;
     text-align: center;
-    width: 68%;
+    width: 74%;
 }
 .navbar-default {
   background:none;
