@@ -5,6 +5,7 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Inconsolata-Regular';
 }
 
+
 .logo h2{
     margin: 0;
     font-family: 'Inconsolata-Regular';
@@ -25,9 +26,11 @@ ul,ol,a,span.i {
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
-p {margin: 0;
-	 padding: 0;
-	 font-family: 'Open Sans', sans-serif;
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
     
 }
 html, body{
@@ -598,15 +601,6 @@ i.glyphicon.glyphicon-map-marker {
 .copyright-right ul li a.chrome{
   background: url(../images/icons1.png) no-repeat -66px 0px;
 }
-.copyright-right ul li a.pinterest{
-  background: url(../images/icons1.png) no-repeat -99px 0px;
-}
-.copyright-right ul li a.linkedin{
-  background: url(../images/icons1.png) no-repeat -132px 0px;
-}
-.copyright-right ul li a.dribbble{
-  background: url(../images/icons1.png) no-repeat -164px 0px;
-}
 .copyright-right ul li a:hover {
   opacity: 1;
   	transition:0.5s all;
@@ -826,6 +820,8 @@ a#home-tab,a#profile-tab,a#myTabDrop1 {
 	color: #000;
     font-size: 2em !important;
     margin: 0 0 1em;
+    padding-top: 10px;
+
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
   border-top: none !important;
@@ -900,6 +896,7 @@ line-height:1.8em;
 }
 li.list-group-item1 {
   line-height: 2.5em;
+    font-size: 15.5px;
 }
 .input-group {
   margin-bottom: 20px;
@@ -1363,18 +1360,20 @@ h3.tittle {
   width: 100%;
 }
 .about-top-right p {
-    color: #cccccc;
+    color: #535353;
     font-size: .975em;
     line-height: 2.5em;
     margin-top: 1em;
+    text-align: justify;
 }
 .about-top-right h4 {
     font-family: 'Inconsolata-Regular';
     color: #535353;
     font-size: 1.4em;
-    font-weight: 100;
+    font-weight: 500;
     line-height: 1.4em;
     padding: 0;
+    
 }
 .about-top-right {
   padding-left: 0;
