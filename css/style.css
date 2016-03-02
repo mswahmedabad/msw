@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
     margin-right: 60px;
     color: #535353;
     text-align: center;
-    margin-left: -90px;
+    margin-left: -60px;
     padding-bottom: 2px;
 }
 ul,ol,a,span.i {
@@ -151,7 +151,10 @@ h2.main-heading:after {
     right: 7em;
 }
 .navbar {
+    text-align: center;
   margin-bottom: 0px;
+    margin-left: 30px;
+    
 }
 .navbar-nav {
     float: none !important;
