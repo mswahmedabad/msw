@@ -151,13 +151,13 @@ h2.main-heading:after {
     right: 7em;
 }
 .navbar {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .navbar-nav {
     float: none !important;
     margin: 0 auto;
     text-align: center;
-    width: 74%;
+    width: 100%;
     padding-bottom: 4px;
     padding-top: 4px;
 }
@@ -170,7 +170,7 @@ h2.main-heading:after {
   top: 7px;
 }
 .nav > li > a {
-        padding: 4px 28px !important;
+        padding: 4px 22px !important;
 }
 .navbar-default .navbar-brand:hover {
 	color: #fff;
