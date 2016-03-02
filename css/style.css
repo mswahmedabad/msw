@@ -122,13 +122,13 @@ a i.twitter:hover {
 }
 h2.main-heading {
     font-size: 3em;
-    text-align: center;
+    text-align:center;
     text-transform: uppercase;
-    color: #fff;
+    color:darkblue;
     line-height: 1.4em;
     font-family: 'Inconsolata-Regular';
-    position: relative;
-    margin: 0;
+    position:relative;
+    margin: 0px;
     padding-top: 5em;
 }
 h2.main-heading:before {
@@ -158,7 +158,8 @@ h2.main-heading:after {
     margin: 0 auto;
     text-align: center;
     width: 74%;
-    padding-bottom: 2px;
+    padding-bottom: 4px;
+    padding-top: 4px;
 }
 .navbar-default {
   background:none;
@@ -1557,7 +1558,7 @@ width: 100%;
 	    min-height: 330px;
 	}
 	.banner5 {
-	    min-height: 100px;
+	    min-height: 150px;
 	}
 	.testimonials {
 	    padding-bottom: 4em;
